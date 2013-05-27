@@ -1,0 +1,33 @@
+{
+  "name": "jumper",
+  "version": "0.0.1",
+  "description": "Jumper Framework",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "./lib",
+  "repository": "",
+  "author": "Ashier de Leon",
+  "license": "Apache License Version 2",
+  "readmeFilename": "README.md",
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "directories": {
+    "bin": "./bin"
+  },
+  "bin": {
+    "jumper": "./bin/jumper"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "colors": ">= 0.3.0",
+    "watch": ">= 0.5.1",
+    "express": "3.2.4",
+    "mongoose": "3.6.11",
+    "commander": "1.1.1"
+  },
+  "devDependencies": {
+    "recess": "*"
+  }
+}
