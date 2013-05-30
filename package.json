@@ -25,7 +25,8 @@
     "watch": ">= 0.5.1",
     "express": "3.2.4",
     "mongoose": "3.6.11",
-    "commander": "1.1.1"
+    "commander": "1.1.1",
+    "jade": "*"
   },
   "devDependencies": {
     "recess": "*"
