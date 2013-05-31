@@ -26,7 +26,9 @@
     "express": "3.2.4",
     "mongoose": "3.6.11",
     "commander": "1.1.1",
-    "jade": "*"
+    "consolidate": "0.9.1",
+    "hogan.js": "2.0.0",
+    "jade": "0.31.0"
   },
   "devDependencies": {
     "recess": "*"
