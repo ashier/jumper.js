@@ -23,7 +23,6 @@
   "dependencies": {
     "colors": ">= 0.3.0",
     "express": "3.2.4",
-    "mongoose": "3.6.11",
     "commander": "1.1.1",
     "consolidate": "0.9.1",
     "barista": "0.0.8",
