@@ -12,3 +12,10 @@ build:
 	@echo "\n${HR}"
 	@echo "LESS successfully compiled at ${DATE}."
 	@echo "${HR}\n"
+
+
+#
+# Run all tests
+#
+test:
+	@@ node test

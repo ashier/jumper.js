@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Jumper Framework",
   "scripts": {
-    "test": "node test"
+    "test": "make test"
   },
   "main": "./lib",
   "repository": "",
