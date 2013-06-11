@@ -1,17 +1,17 @@
 {
   "name": "jumper.js",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "Jumper Framework",
   "scripts": {
     "test": "node test"
   },
   "main": "./lib",
-  "repository": "",
+  "repository": "https://github.com/ashier/jumper.js.git",
   "author": "Ashier de Leon",
   "license": "Apache License Version 2",
   "readmeFilename": "README.md",
   "engines": {
-    "node": ">= 0.4.0"
+    "node": ">= 0.10.0"
   },
   "directories": {
     "bin": "./bin"
@@ -21,6 +21,7 @@
   },
   "preferGlobal": true,
   "dependencies": {
+    "jumper.js-admin": ">= 0.1.0",
     "express": "3.2.4",
     "underscore": "1.4.4",
     "async": "0.2.9",
