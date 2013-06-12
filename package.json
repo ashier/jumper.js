@@ -1,6 +1,6 @@
 {
   "name": "jumper.js",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "Jumper Framework",
   "scripts": {
     "test": "node test"
