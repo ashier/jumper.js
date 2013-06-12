@@ -21,7 +21,7 @@
   },
   "preferGlobal": true,
   "dependencies": {
-    "jumper.js-admin": ">= 0.1.0",
+    // "jumper.js-admin": ">= 0.1.0",
     "express": "3.2.4",
     "underscore": "1.4.4",
     "async": "0.2.9",

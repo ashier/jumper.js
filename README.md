@@ -1,4 +1,6 @@
-# Jumper Node Web Framework   [![Build Status](https://travis-ci.org/ashier/jumper.js.png)](https://travis-ci.org/ashier/jumper.js) [![NPM version](https://badge.fury.io/js/jumper.js.png)](http://badge.fury.io/js/jumper.js)
+## Jumper.js   [![Build Status](https://travis-ci.org/ashier/jumper.js.png)](https://travis-ci.org/ashier/jumper.js) [![NPM version](https://badge.fury.io/js/jumper.js.png)](http://badge.fury.io/js/jumper.js)
+
+###Node Web Framework
 
 Setup:
 
