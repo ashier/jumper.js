@@ -30,7 +30,7 @@ module.exports = function(grunt) {
 
     // grunt.task.run('bar', 'baz');
 
-    var pkg = grunt.file.readJSON('package.json');
+    // var pkg = grunt.file.readJSON('package.json');
     // pkg
     grunt.log.write('Publish some stuff...', args).ok();
   });
