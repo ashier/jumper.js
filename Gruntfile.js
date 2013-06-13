@@ -1,24 +1,29 @@
 module.exports = function(grunt) {
 
+  "use strict";
+
   // Project configuration.
   grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json')
-    // uglify: {
-    //   options: {
-    //     banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
-    //   },
-    //   build: {
-    //     src: 'lib/index.js',
-    //     dest: 'build/<%= pkg.name %>.min.js'
-    //   }
-    // }
+
+    pkg: grunt.file.readJSON('package.json'),
+
+    less: {
+      dev: {
+        options: {
+          paths: ["lib/public/css"],
+          yuicompress: true
+        },
+        files: {
+          "lib/public/css/default.css": "lib/public/less/default.less"
+        }
+      }
+    }
   });
 
-  // Load the plugin that provides the "uglify" task.
-  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-less');
 
   // Default task(s).
-  grunt.registerTask('default', []);
+  grunt.registerTask('default', ['less']);
 
   // grunt publish:args
   grunt.registerTask('publish', 'Publish jumper.js', function(args) {
