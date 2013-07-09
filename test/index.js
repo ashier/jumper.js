@@ -1,8 +1,8 @@
 var assert = require('assert'),
-    JUMPER = require('../lib');
+  JUMPER = require('../lib');
 
 
-!function() {
+! function() {
 
 
 }();
